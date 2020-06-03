@@ -5,7 +5,7 @@ import numpy as np
 WIDTH, HEIGHT = 400, 400
 n = 0
 points = []
-nPoints = 20
+nPoints = 50
 points = [np.array([randint(0,WIDTH),randint(0,HEIGHT)]) for i in range(nPoints)]
 
 img = Image.new('RGB',(WIDTH,HEIGHT))
